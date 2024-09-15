@@ -2,6 +2,8 @@
 
 ### *[ArXiv](https://arxiv.org/abs/2409.01100) 
 
+![image](./img/pipeline.png)
+
 We present a robust refinement method for estimating oriented normals from unstructured point clouds. In contrast to previous approaches that either suffer from high computational complexity or fail to achieve desirable accuracy, our novel framework incorporates sign orientation and data augmentation in the feature space to refine the initial oriented normals, striking a balance between efficiency and accuracy. To address the issue of noise-caused direction inconsistency existing in previous approaches, we introduce a new metric called the Chamfer Normal Distance, which faithfully minimizes the estimation error by correcting the annotated normal with the closest point found on the potentially clean point cloud. This metric not only tackles the challenge but also aids in network training and significantly enhances network robustness against noise. Moreover, we propose an innovative dual-parallel architecture that integrates Multi-scale Local Feature Aggregation and Hierarchical Geometric Information Fusion, which enables the network to capture intricate geometric details more effectively and notably reduces ambiguity in scale selection. Extensive experiments demonstrate the superiority and versatility of our method in both unoriented and oriented normal estimation tasks across synthetic and real-world datasets among indoor and outdoor scenarios. This project is the implementation of OCMG-Net by Pytorch.
 
 ## Requirements
