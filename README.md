@@ -18,6 +18,9 @@ The code is implemented in the following environment settings:
 We train our network model on the [PCPNet](http://geometry.cs.ucl.ac.uk/projects/2018/pcpnet/pclouds.zip) dataset.
 Download the dataset to the folder `***/dataset/` and copy the list into the fold `***/dataset/PCPNet/list`. 
 More test datasets with complex geometries can be downloaded from [here](https://drive.google.com/drive/folders/1eNpDh5ivE7Ap1HkqCMbRZpVKMQB1TQ6H?usp=share_link).
+
+For oriented normal initialization, our pre-processed data can be downloaded from [here](https://drive.google.com/drive/folders/1ZqyaSq1rUznPfjGiN0hpTWqvt5TCRRRg?usp=sharing).
+
 The dataset is organized as follows:
 ```
 │dataset/
@@ -48,7 +51,6 @@ python train.py
 Your trained model will be save in `./log/***/ckpts/`.
 
 ## Test
-Our pre-processed data can be downloaded from [here](https://drive.google.com/drive/folders/1ZqyaSq1rUznPfjGiN0hpTWqvt5TCRRRg?usp=sharing).
 You can use the provided model for testing:
 - PCPNet dataset
 ```
