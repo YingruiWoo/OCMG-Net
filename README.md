@@ -78,7 +78,7 @@ sparse_patches = False  # to output sparse point normals or not
 ```
 
 ## Acknowledgement
-The code is heavily based on [SHS-Net](https://github.com/LeoQLi/SHS-Net).
+Our work is inspired by these outstanding previous efforts.
 If you find our work useful in your research, please cite the following papers:
 
 ```
